@@ -3,6 +3,11 @@
   "env": {
     "development": {
       "plugins": ["transform-react-jsx-source"]
+    },
+    "mocha": {
+      "plugins": [
+        "rewire"
+      ]
     }
   }
 }
