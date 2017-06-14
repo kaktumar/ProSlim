@@ -8,8 +8,7 @@
   "scripts": {
     "mocha": "BABEL_ENV=mocha mocha --require mocha-setup.js --compilers js:babel-core/register --recursive __tests__/mocha",
     "mocha:watch": "./mocha.runner.sh",
-    "jest": "jest",
-    "postinstall": "open rndebugger://set-debugger-loc?host=localhost&port=19002"
+    "jest": "jest"
   },
   "dependencies": {
     "axios": "^0.16.2",
