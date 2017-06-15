@@ -2,6 +2,12 @@
 
 
 # TODO  
+
+- Create App Mockup: DONE:
+
+![Alt text](assets/development_resources/mockup.png?raw=true "Mockup")
+
+
 - Refactor Node.js Mongo Backend for Recipes. Add images and recipe names.
 
 - Write Google Cloud functions to fetch recipes from that API on backend
