@@ -9,47 +9,47 @@
 
 - Create Redux Data Model:
 
-ReduxStore: {
-  auth: {
-    loginToken: string // PERSIST LOCAL,
-    firstTimeLoading: boolean // PERSIST LOCAL,
+ReduxStore: {  
+  auth: {  
+    loginToken: string // PERSIST LOCAL,  
+    firstTimeLoading: boolean // PERSIST LOCAL,  
 
-  },
+  },  
 
-  settings: {
-    isMetric: boolean // PERSIST LOCAL,
-    //pass
-  },
+  settings: {  
+    isMetric: boolean // PERSIST LOCAL,  
+    //pass  
+  },  
 
-  loading: boolean,
+  loading: boolean,  
 
-  error: string,
+  error: string,  
 
-  meals: {
-    fetchQueryObject: object,
-    fetchQuery: string,
-    fetchedRecipes: array
-  },
+  meals: {  
+    fetchQueryObject: object,  
+    fetchQuery: string,  
+    fetchedRecipes: array  
+  },  
 
-  personal: {
-    name: string // PERSIST LOCAL,
-    initialWeight: string // PERSIST LOCAL,
-    targetWeight: string // PERSIST LOCAL,
-    logs: array // PERSIST LOCAL,
-    todayLog: object,
-    savedMeals: array // PERSIST LOCAL,
+  personal: {  
+    name: string // PERSIST LOCAL,  
+    initialWeight: string // PERSIST LOCAL,  
+    targetWeight: string // PERSIST LOCAL,  
+    logs: array // PERSIST LOCAL,  
+    todayLog: object,  
+    savedMeals: array // PERSIST LOCAL,  
 
-  },
+  },  
 
-  databaseBackup: {
-    logs: array // PERSIST ON FIREBASE,
-    savedMeals: array // PERSIST ON FIREBASE,
+  databaseBackup: {  
+    logs: array // PERSIST ON FIREBASE,  
+    savedMeals: array // PERSIST ON FIREBASE,  
 
-  }
+  }  
 
-  nav: object // React Native Navigation ,
+  nav: object // React Native Navigation ,  
 
-}
+}  
 
 
 - Refactor Node.js Mongo Backend for Recipes. Add images and recipe names.
